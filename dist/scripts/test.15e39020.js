@@ -1,1 +1,0 @@
-(self.webpackChunkwebpack_multiple_entry=self.webpackChunkwebpack_multiple_entry||[]).push([[43],{389:function(){console.log("test")}},function(n){var e=function(e){return n(n.s=e)};n.O(0,[592],(function(){return e(535),e(389)})),n.O()}]);

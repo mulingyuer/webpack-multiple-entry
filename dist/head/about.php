@@ -1,1 +1,0 @@
-<script defer="defer" src="<?php echo $this->options->themeUrl; ?>/dist/scripts/about-manifest.a09e8b52.js"></script><script defer="defer" src="<?php echo $this->options->themeUrl; ?>/dist/scripts/common.86ccdf08.js"></script><script defer="defer" src="<?php echo $this->options->themeUrl; ?>/dist/scripts/about.0e0f35d0.js"></script>

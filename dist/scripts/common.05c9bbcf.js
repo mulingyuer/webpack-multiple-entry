@@ -1,0 +1,1 @@
+(self.webpackChunkwebpack_multiple_entry=self.webpackChunkwebpack_multiple_entry||[]).push([[592],{4535:function(){console.log("大家好，我是通用入口文件")}}]);
