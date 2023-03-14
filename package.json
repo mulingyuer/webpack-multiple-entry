@@ -20,12 +20,13 @@
     "@babel/preset-typescript": "^7.21.0",
     "@babel/runtime": "^7.21.0",
     "@types/glob": "^8.1.0",
-    "@types/node": "^18.15.0",
+    "@types/node": "^18.15.3",
     "autoprefixer": "^10.4.14",
     "babel-loader": "^9.1.2",
     "compression-webpack-plugin": "^10.0.0",
-    "core-js": "3.29.0",
+    "core-js": "3.29.1",
     "css-loader": "^6.7.3",
+    "glob": "^9.2.1",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.7.3",
     "postcss": "^8.4.21",
@@ -41,3 +42,4 @@
     "webpackbar": "^5.0.2"
   }
 }
+

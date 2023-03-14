@@ -1,7 +1,7 @@
 /*
  * @Author: mulingyuer
  * @Date: 2022-12-18 20:34:21
- * @LastEditTime: 2023-03-11 15:56:27
+ * @LastEditTime: 2023-03-14 18:35:03
  * @LastEditors: mulingyuer
  * @Description: webpack基础配置
  * @FilePath: \webpack-multiple-entry\webpack\webpack.common.ts
@@ -85,11 +85,6 @@ export default {
     new WebpackBar({
       name: "🚀  少女祈祷中...",
       color: "#1e80ff",
-    }),
-    //css样式抽离
-    new MiniCssExtractPlugin({
-      filename: "styles/[name].css", //css文件命名
-      chunkFilename: "[id].css", //公共样式
     }),
     ...createHtml(entry),
   ],
