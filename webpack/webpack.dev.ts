@@ -1,7 +1,7 @@
 /*
  * @Author: mulingyuer
  * @Date: 2022-12-18 20:49:25
- * @LastEditTime: 2023-03-14 18:42:25
+ * @LastEditTime: 2023-03-21 18:56:41
  * @LastEditors: mulingyuer
  * @Description: webpack dev配置
  * @FilePath: \webpack-multiple-entry\webpack\webpack.dev.ts
@@ -10,7 +10,6 @@
 import type { Configuration } from "webpack";
 import { merge } from "webpack-merge";
 import common from "./webpack.common";
-import MiniCssExtractPlugin from "mini-css-extract-plugin";
 
 export default merge(common, {
   mode: "development",
@@ -18,13 +17,7 @@ export default merge(common, {
   output: {
     filename: `pages/[name].js`,
   },
-  plugins: [
-    //css样式抽离
-    new MiniCssExtractPlugin({
-      filename: "styles/[name].css", //css文件命名
-      chunkFilename: "chunk-[id].css", //异步样式
-    }),
-  ],
+  plugins: [],
   watch: true, //监听任何已解析文件的更改
   watchOptions: {
     aggregateTimeout: 600, //600ms内可以重复保存
